@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="pcs" method="upgrade" version="3">
+	<name>plg_pcs_shipping_standard</name>
+	<creationDate>17/07/2017</creationDate>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<authorEmail></authorEmail>
+	<authorUrl>www.phoca.cz</authorUrl>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
+	<version>3.0.0</version>
+
+	
+	<description>PLG_PCS_SHIPPING_STANDARD_DESCRIPTION</description>
+
+	
+	<files>
+		<filename plugin="shipping_standard">shipping_standard.php</filename>
+		<filename plugin="shipping_standard">shipping_standard.xml</filename>
+		<filename plugin="shipping_standard">index.html</filename>
+		<folder>helpers</folder>
+	</files>
+
+	
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_pcs_shipping_standard.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_pcs_shipping_standard.sys.ini</language>
+	</languages>
+	<administration>
+		<languages>
+			<language tag="en-GB">language/en-GB/en-GB.plg_pcs_shipping_standard.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.plg_pcs_shipping_standard.sys.ini</language>
+		</languages>
+	</administration>
+	
+	
+
+<form>
+	<fields name="params" addfieldpath="/administrator/components/com_phocacart/models/fields">
+	<fieldset name="shipping" addpath="/administrator/components/com_phocacart/models/fields" group="pcs" >
+
+	
+
+	
+	</fieldset>
+	</fields>
+
+</form>
+</extension>
