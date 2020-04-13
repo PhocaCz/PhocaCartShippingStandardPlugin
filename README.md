@@ -26,6 +26,8 @@ Phoca Cart Shipping - Shipping Standard Plugin - shipping method for Phoca Cart 
 
 
 
+
+
 ## Support
 
 [Phoca Forum](https://www.phoca.cz/forum)
@@ -54,7 +56,7 @@ Phoca Cart Shipping - Shipping Standard Plugin - shipping method for Phoca Cart 
 
 ## Version
 
-3.4.0
+3.5.0
 
 
 
