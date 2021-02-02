@@ -19,21 +19,38 @@ JLoader::registerPrefix('Phocacart', JPATH_ADMINISTRATOR . '/components/com_phoc
 
 class plgPCSShipping_Standard extends JPlugin
 {
+	protected $name 	= 'shipping_standard';
+	
 	function __construct(& $subject, $config) {
 		parent :: __construct($subject, $config);
 		$this->loadLanguage();
 	}
 	/*
-	function PCSbeforeProceedToShipping(&$proceed) {
+	function PCSbeforeProceedToShipping(&$proceed, $eventData) {
+		
+		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
+			return false;
+		}
+		
 		$proceed = 1;
 		return true;
 	}
 	
-	function PCSbeforeSetShippingForm(&$form, $paramsC, $params, $order) {
+	function PCSbeforeSetShippingForm(&$form, $paramsC, $params, $order, $eventData) {
+		
+		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
+			return false;
+		}
+		
 		return true;
 	}
 	
-	function PCSbeforeCheckShipping($pid) {
+	function PCSbeforeCheckShipping($pid, $eventData) {
+		
+		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
+			return false;
+		}
+		
 		return true;
 	}
 	*/

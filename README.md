@@ -2,7 +2,7 @@
 
 
 
-![Phoca Cart Shipping Standard Plugin](https://github.com/PhocaCz/PhocaCartShippingStandardPlugin/blob/master/shipping_standard.png)
+![Phoca Cart Shipping Standard Plugin](https://github.com/PhocaCz/PhocaCartShippingStandardPlugin/blob/master/shipping_standard.png?raw=true)
 
 # Phoca Cart Shipping Standard Plugin
 
@@ -56,7 +56,7 @@ Phoca Cart Shipping - Shipping Standard Plugin - shipping method for Phoca Cart 
 
 ## Version
 
-3.5.4
+3.5.5
 
 
 
