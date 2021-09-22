@@ -7,7 +7,7 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
  */
 
-defined('_JEXEC') or die; 
+defined('_JEXEC') or die;
 jimport( 'joomla.plugin.plugin' );
 jimport( 'joomla.filesystem.file');
 jimport( 'joomla.html.parameter' );
@@ -20,39 +20,75 @@ JLoader::registerPrefix('Phocacart', JPATH_ADMINISTRATOR . '/components/com_phoc
 class plgPCSShipping_Standard extends JPlugin
 {
 	protected $name 	= 'shipping_standard';
-	
+
 	function __construct(& $subject, $config) {
 		parent :: __construct($subject, $config);
 		$this->loadLanguage();
 	}
 	/*
 	function PCSbeforeProceedToShipping(&$proceed, $eventData) {
-		
+
 		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
 			return false;
 		}
-		
+
 		$proceed = 1;
 		return true;
 	}
-	
+
 	function PCSbeforeSetShippingForm(&$form, $paramsC, $params, $order, $eventData) {
-		
+
 		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
 			return false;
 		}
-		
+
 		return true;
 	}
-	
+
 	function PCSbeforeCheckShipping($pid, $eventData) {
-		
+
 		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
 			return false;
 		}
-		
+
+		return true;
+	}
+	function PCSgetShippingBrancheInfoAdmin($pid, $eventData) {
+
+		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
+			return false;
+		}
+
 		return true;
 	}
 	*/
+	/*
+	function PCSbeforeShowPossibleShippingMethod(&$active, $params, $eventData){
+
+		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
+			return false;
+		}
+
+		// Shipping plugin can disable/deactivate current shipping method in possible shipping method list based on own rules
+		// $active = false;
+
+		return true;
+
+	}
+	
+	function PCSonInfoViewDisplayContent($data, $eventData){
+
+		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
+			return false;
+		}
+
+		$output = array();
+		$output['content'] = '';
+
+		return $output;
+
+	}
+	*/
+	
 }
 ?>
