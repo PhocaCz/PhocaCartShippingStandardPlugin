@@ -26,7 +26,7 @@ class plgPCSShipping_Standard extends JPlugin
 		$this->loadLanguage();
 	}
 	/*
-	function PCSbeforeProceedToShipping(&$proceed, $eventData) {
+	function onPCSbeforeProceedToShipping(&$proceed, $eventData) {
 
 		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
 			return false;
@@ -36,7 +36,7 @@ class plgPCSShipping_Standard extends JPlugin
 		return true;
 	}
 
-	function PCSbeforeSetShippingForm(&$form, $paramsC, $params, $order, $eventData) {
+	function onPCSbeforeSetShippingForm(&$form, $paramsC, $params, $order, $eventData) {
 
 		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
 			return false;
@@ -45,7 +45,7 @@ class plgPCSShipping_Standard extends JPlugin
 		return true;
 	}
 
-	function PCSbeforeCheckShipping($pid, $eventData) {
+	function onPCSbeforeCheckShipping($pid, $eventData) {
 
 		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
 			return false;
@@ -53,7 +53,7 @@ class plgPCSShipping_Standard extends JPlugin
 
 		return true;
 	}
-	function PCSgetShippingBrancheInfoAdmin($pid, $eventData) {
+	function onPCSgetShippingBrancheInfoAdmin($pid, $eventData) {
 
 		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
 			return false;
@@ -63,7 +63,7 @@ class plgPCSShipping_Standard extends JPlugin
 	}
 	*/
 	/*
-	function PCSbeforeShowPossibleShippingMethod(&$active, $params, $eventData){
+	function onPCSbeforeShowPossibleShippingMethod(&$active, $params, $eventData){
 
 		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
 			return false;
@@ -76,7 +76,7 @@ class plgPCSShipping_Standard extends JPlugin
 
 	}
 	
-	function PCSonInfoViewDisplayContent($data, $eventData){
+	function onPCSonInfoViewDisplayContent($data, $eventData){
 
 		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
 			return false;
