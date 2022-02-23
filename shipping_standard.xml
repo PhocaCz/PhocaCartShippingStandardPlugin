@@ -2,7 +2,7 @@
 <extension type="plugin" group="pcs" method="upgrade" version="4.0">
 	<name>plg_pcs_shipping_standard</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>30/11/2021</creationDate>
+	<creationDate>21/02/2022</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
@@ -15,7 +15,6 @@
 		<folder>helpers</folder>
 		<filename plugin="shipping_standard">shipping_standard.php</filename>
 		<filename plugin="shipping_standard">index.html</filename>
-		<filename plugin="shipping_standard">manifest.xml</filename>
 	</files>
 
 	<languages>
