@@ -60,7 +60,7 @@ Phoca Cart Shipping - Shipping Standard Plugin - shipping method for Phoca Cart 
 
 ## Version (Joomla! 4.x)
 
-4.0.4
+4.0.7
 
 
 
