@@ -8,6 +8,7 @@
  */
 
 defined('_JEXEC') or die;
+use Joomla\CMS\Plugin\CMSPlugin;
 jimport( 'joomla.plugin.plugin' );
 jimport( 'joomla.filesystem.file');
 jimport( 'joomla.html.parameter' );
@@ -17,7 +18,7 @@ jimport( 'joomla.html.parameter' );
 
 JLoader::registerPrefix('Phocacart', JPATH_ADMINISTRATOR . '/components/com_phocacart/libraries/phocacart');
 
-class plgPCSShipping_Standard extends JPlugin
+class plgPCSShipping_Standard extends CMSPlugin
 {
 	protected $name 	= 'shipping_standard';
 
@@ -75,7 +76,7 @@ class plgPCSShipping_Standard extends JPlugin
 		return true;
 
 	}
-	
+
 	function onPCSonInfoViewDisplayContent($data, $eventData){
 
 		if (!isset($eventData['pluginname']) || isset($eventData['pluginname']) && $eventData['pluginname'] != $this->name) {
@@ -89,6 +90,6 @@ class plgPCSShipping_Standard extends JPlugin
 
 	}
 	*/
-	
+
 }
 ?>
