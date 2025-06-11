@@ -26,12 +26,11 @@
 		<element>shipping_standard</element>
 		<folder>pcs</folder>
 		<type>plugin</type>
-		<version>4.0.9</version>
-		<infourl title="Phoca Cart Shipping Standard Plugin 4.0.9">https://www.phoca.cz/</infourl>
+		<version>4.0.11</version>
+		<infourl title="Phoca Cart Shipping Standard Plugin 4.0.11">https://www.phoca.cz/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartShippingStandardPlugin/releases/download/4.0.9/plg_pcs_shipping_standard_v4.0.9.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartShippingStandardPlugin/releases/download/4.0.11/plg_pcs_shipping_standard_v4.0.11.zip</downloadurl>
 		</downloads>
-		<sha512>8832ee42066db4981822746294410428baa2c6bb31e0f04f1d3ffb9bc135c81506bda349fde41f3cb848c1e357cbac54dc1c6818c56380e6ff42a710668b2f26</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
@@ -41,5 +40,25 @@
 		<targetplatform name="joomla" version="4\.*"/>
 		<client>site</client>
 	</update>
-
+	<update>
+		<name><![CDATA[ Phoca Cart Shipping Standard Plugin ]]></name>
+		<description><![CDATA[ Phoca Cart Shipping - Shipping Standard Plugin - shipping method for Phoca Cart component. This plugin is included in core Phoca Cart package. ]]></description>
+		<element>shipping_standard</element>
+		<folder>pcs</folder>
+		<type>plugin</type>
+		<version>5.1.1</version>
+		<infourl title="Phoca Cart Shipping Standard Plugin 5.1.1">https://www.phoca.cz/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartShippingStandardPlugin/releases/download/5.1.1/plg_pcs_shipping_standard_v5.1.1.zip</downloadurl>
+		</downloads>
+		<sha512>cd86f57628176db53317a95efdfccfcbd80b16bbe4e63657a9c43abacaed2a23256bb0f5c3d3785052d9eb9ab4bcb9482837a370cc2a272480ef2d5c2b5daa8b</sha512>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
+		<maintainerurl>https://www.phoca.cz/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="5\.*"/>
+		<client>site</client>
+	</update>
 </updates>
