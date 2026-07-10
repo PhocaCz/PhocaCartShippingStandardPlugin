@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="plugin" group="pcs" method="upgrade" version="5.0">
+<extension type="plugin" group="pcs" method="upgrade" version="6.0">
 	<name>plg_pcs_shipping_standard</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
-	<creationDate>11/06/2025</creationDate>
+	<creationDate>10/07/2026</creationDate>
 	<authorEmail></authorEmail>
 	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
 	<license>GNU/GPL</license>
-	<version>5.1.1</version>
+	<version>6.1.3</version>
 	<description>PLG_PCS_SHIPPING_STANDARD_DESCRIPTION</description>
 	<projectName>PhocaCartShippingStandardPlugin</projectName>
 
 	<files>
 		<folder>helpers</folder>
 		<filename plugin="shipping_standard">shipping_standard.php</filename>
+		<filename plugin="shipping_standard">FOSS.md</filename>
 		<filename plugin="shipping_standard">index.html</filename>
+		<filename plugin="shipping_standard">LICENSE</filename>
 		<filename plugin="shipping_standard">manifest.xml</filename>
 	</files>
 

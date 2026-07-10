@@ -26,10 +26,10 @@
 		<element>shipping_standard</element>
 		<folder>pcs</folder>
 		<type>plugin</type>
-		<version>4.0.9</version>
-		<infourl title="Phoca Cart Shipping Standard Plugin 4.0.9">https://www.phoca.cz/</infourl>
+		<version>4.0.12</version>
+		<infourl title="Phoca Cart Shipping Standard Plugin 4.0.12">https://www.phoca.cz/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartShippingStandardPlugin/releases/download/4.0.9/plg_pcs_shipping_standard_v4.0.9.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartShippingStandardPlugin/releases/download/4.0.12/plg_pcs_shipping_standard_v4.0.12.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -46,12 +46,11 @@
 		<element>shipping_standard</element>
 		<folder>pcs</folder>
 		<type>plugin</type>
-		<version>5.1.1</version>
-		<infourl title="Phoca Cart Shipping Standard Plugin 5.1.1">https://www.phoca.cz/</infourl>
+		<version>5.2.3</version>
+		<infourl title="Phoca Cart Shipping Standard Plugin 5.2.3">https://www.phoca.cz/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartShippingStandardPlugin/releases/download/5.1.1/plg_pcs_shipping_standard_v5.1.1.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartShippingStandardPlugin/releases/download/5.2.3/plg_pcs_shipping_standard_v5.2.3.zip</downloadurl>
 		</downloads>
-		<sha512>cd86f57628176db53317a95efdfccfcbd80b16bbe4e63657a9c43abacaed2a23256bb0f5c3d3785052d9eb9ab4bcb9482837a370cc2a272480ef2d5c2b5daa8b</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
@@ -59,6 +58,27 @@
 		<maintainerurl>https://www.phoca.cz/</maintainerurl>
 		<section>Updates</section>
 		<targetplatform name="joomla" version="5\.*"/>
+		<client>site</client>
+	</update>
+	<update>
+		<name><![CDATA[ Phoca Cart Shipping Standard Plugin ]]></name>
+		<description><![CDATA[ Phoca Cart Shipping - Shipping Standard Plugin - shipping method for Phoca Cart component. This plugin is included in core Phoca Cart package. ]]></description>
+		<element>shipping_standard</element>
+		<folder>pcs</folder>
+		<type>plugin</type>
+		<version>6.1.3</version>
+		<infourl title="Phoca Cart Shipping Standard Plugin 6.1.3">https://www.phoca.cz/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartShippingStandardPlugin/releases/download/6.1.3/plg_pcs_shipping_standard_v6.1.3.zip</downloadurl>
+		</downloads>
+		<sha512>1f6307125c42f47c96de7af995c74e32029ff01c1540700d67b7398f467fcdf9af7244d96ebd72753f10c35d6f123159ed8cc19c27883c87f1d5ab29d18de01a</sha512>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
+		<maintainerurl>https://www.phoca.cz/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="(5|6)\.*"/>
 		<client>site</client>
 	</update>
 </updates>
